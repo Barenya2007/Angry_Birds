@@ -113,11 +113,11 @@ async function getTime(){
     console.log(hour)
 
     if(hour>=4 && hour<=18){
-        bg= "sprites/bg.png"
+        bg= "bg.png"
 
     }
     else{
-        bg= "sprites/bg2.jpg"
+        bg= "bg2.jpg"
     }
     bgimage= loadImage(bg)
 }
